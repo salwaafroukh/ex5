@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXERCICE5</title>
+	<style>
+   .d1{
+   background-color: green;
+   border: 2px solid black;
+   height: 90px
+   }
+   .img{
+   height: 45px;
+   padding-top: 22px;
+   
+   }
+   .d2{
+   height: 50px;
+   color:red;
+    margin-top: 25px;
+	}
+	.d3{
+   background-color: green;
+   border: 2px solid black;
+   height: 80px;
+   padding-left: 20px; }
+   .d4{
+   height: 50px;
+   color:red;
+    margin-top: 25px;
+	}
+	.d5{
+   background-color: green;
+   border: 2px solid black;
+   height: 90px
+   }
+   .d6{
+   height: 50px;
+   color:red;
+    margin-top: 25px;
+	}
+   
+    th {
+    background-color: green;
+  }
+   
+</style>
+</head>
+<body>
+<div class="container">
+        <div class="d1"><center><img class="img" src="data:image/jpeg;base64,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"/></center></div>
+        <div class="d2"><b><h2>MAROC</h2></b></div>
+        <div class="d3"><h6>Le Maroc est un pays situé en Afrique du Nord, bordé par l'océan Atlantique à l'ouest et la mer Méditerranée au nord. Il partage ses frontières avec l'Algérie à l'est et au sud-est, le Sahara occidental au sud et l'Espagne au nord par le biais de ses enclaves de Ceuta et Melilla sur la côte méditerranéenne. Le Maroc est connu pour sa diversité géographique, allant des montagnes de l'Atlas au nord, à des plaines fertiles au centre, en passant par des déserts arides au sud.</h6></div>
+		<div class="d4"><b><h2>INFORMATIONS CLÉS</h2></b></div>
+		<div class="d5"><ul>
+    <li>Capitale:<b>Rabat</b></li>
+    <li>Langue officielle:<b>Arabe</b></li>
+    <li>Fête nationale:<b>30 juillet</b></li>
+  </ul></div>
+		<div class="d6"><b><h2>PRINCIPALES VILLES</h2></b></div>
+		<div class="d7"><table border="1"> 
+  <tr> 
+    <th width= "70px">VILLE</th> 
+    <th width= "80px">SUPERFICIE</th> 
+    <th width= "80px">HABITANTS</th> 
+  </tr>
+  <tr> 
+    <td>Casablanca</td> 
+    <td>220 Km²</td> 
+    <td>3 359 818</td> 
+  </tr>
+  <tr>
+    <td>Rabat</td>
+    <td>117.5 Km²</td>
+    <td>1 126 386</td>
+  </tr>
+  <tr> 
+    <td>Fès</td>
+    <td>320 Km²</td>
+    <td>1 112 072</td>
+  </tr>
+</table>
+</div>
+		
+    </div>
+</body>
+</html>
